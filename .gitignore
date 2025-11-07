@@ -1,0 +1,31 @@
+# Środowisko wirtualne Python
+venv/
+env/
+ENV/
+.venv/
+
+# Node modules
+node_modules/
+
+# Pliki Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Pliki IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Pliki konfiguracyjne z wrażliwymi danymi
+.env
+*.env.local
+secrets.json
